@@ -1,0 +1,9 @@
+一、编译
+
+arm-linux-gcc *.c -I inc/ -L lib/ -lxml2 -lz -o tcp_xml_test
+
+或
+arm-linux-gcc *.c -I inc/ -L lib/ -lxml2 -lz -o -Wl,-rpath=./lib -o tcp_xml_test
+
+
+二、将工程目录下的lib目录中的libxml2.so与libz.so拷贝到开发板的/lib目录,然后改名为libxml2.so.2和libz.so.1。

@@ -1,0 +1,1423 @@
+============================================================
+Time  2016/12/15 00:54:54 729 
+============================================================
+[2016/12/15 00:54:54 730] isr_local  2145 os_type is:  Linux  
+[2016/12/15 00:54:54 732] isr_local  2154 SYS_MSG_LOAD_LOCAL  
+[2016/12/15 00:54:54 739] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:54 742] isr_local  2183 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2016/12/15 00:54:54 747] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:54 751] isr_local  2183 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2016/12/15 00:54:54 753] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:54 761] isr_local  2091 ASR_LOCAL_MSG_SSB  
+[2016/12/15 00:54:54 764] isr_local  1229 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=cmd,result_type=xml,result_encoding=UTF-8  
+[2016/12/15 00:54:54 765] isr_local  801  engine_type  :  local  
+[2016/12/15 00:54:54 769] isr_local  801  asr_res_path  :  fo|res/asr/common.jet  
+[2016/12/15 00:54:54 773] isr_local  801  sample_rate  :  16000  
+[2016/12/15 00:54:54 774] isr_local  801  grm_build_path  :  res/asr/GrmBuilld  
+[2016/12/15 00:54:54 779] isr_local  801  local_grammar  :  cmd  
+[2016/12/15 00:54:54 781] isr_local  801  result_type  :  xml  
+[2016/12/15 00:54:54 782] isr_local  801  result_encoding  :  UTF-8  
+[2016/12/15 00:54:54 791] isr_local  1258 init aitalk in ssb  
+[2016/12/15 00:54:54 798] isr_local  1142 esr_init | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=cmd,result_type=xml,result_encoding=UTF-8  
+[2016/12/15 00:54:54 801] isr_local  801  engine_type  :  local  
+[2016/12/15 00:54:54 803] isr_local  801  asr_res_path  :  fo|res/asr/common.jet  
+[2016/12/15 00:54:54 808] isr_local  801  sample_rate  :  16000  
+[2016/12/15 00:54:54 811] isr_local  801  grm_build_path  :  res/asr/GrmBuilld  
+[2016/12/15 00:54:54 813] isr_local  801  local_grammar  :  cmd  
+[2016/12/15 00:54:54 817] isr_local  801  result_type  :  xml  
+[2016/12/15 00:54:54 818] isr_local  801  result_encoding  :  UTF-8  
+[2016/12/15 00:54:54 821] isr_local  1081  lucEsr.new   
+[2016/12/15 00:54:54 825] isr_local  998  file count =   1  
+[2016/12/15 00:54:54 827] isr_local  921  file open type is:   fo  
+[2016/12/15 00:54:54 829] isr_local  954  res/asr/common.jet  0  0  
+[2016/12/15 00:54:54 830] isr_local  1016 speech_plus_setting  0  
+[2016/12/15 00:54:54 831] isr_local  1029 2  nil  res/asr/common.jet  0  0  
+[2016/12/15 00:54:54 837] isr_local  1031 res_ver  2  
+[2016/12/15 00:54:54 840] isr_local  1032 res 5  a67ec4631cc3043e4b7fce4a4b7234d9  
+[2016/12/15 00:54:54 841] isr_local  1033 res_new_old_mark  v5pp  
+[2016/12/15 00:54:54 843] isr_local  1034 res_usr_name    
+[2016/12/15 00:54:54 847] isr_local  1035 res_expires  1485072161  
+[2016/12/15 00:54:54 851] isr_local  1036 err  0  
+[2016/12/15 00:54:54 853] isr_local  1052 lgi appid 5  a67ec4631cc3043e4b7fce4a4b7234d9  
+[2016/12/15 00:54:54 855] isr_local  1067 now expires:  1481792094  1485072161  
+[2016/12/15 00:54:54 869] auth       252  read auth file failed! err=  11200  
+[2016/12/15 00:54:54 967] isr_local  1272 authorized_aitalk=  nil  
+[2016/12/15 00:54:54 968] isr_local  1273 forbid_aitalk=  nil  
+[2016/12/15 00:54:54 971] auth       570  aitalk  table(1007caa0) nil  nil  appid = 583467f7  
+[2016/12/15 00:54:54 974] auth       579  app  nil  nil  nil  
+[2016/12/15 00:54:54 979] auth       636  ath rquest  {"authorize":[{"ver":"2.1.1","busin":"aitalk"}]}  
+[2016/12/15 00:54:54 984] transport  609  paramkvsport is   nil  
+[2016/12/15 00:54:54 995] transport  617  ns_enable=  1  
+[2016/12/15 00:54:54 997] transport  661  url.full=  nil  
+[2016/12/15 00:54:55 000] transport  837  switch 80  
+[2016/12/15 00:54:55 002] transport  844  net type:  standard  
+[2016/12/15 00:54:55 005] transport  845  net operator:  def  
+[2016/12/15 00:54:55 007] transport  846  use proxy:  false  
+[2016/12/15 00:54:55 009] auth       691  not login!  
+[2016/12/15 00:54:55 010] auth       528  [session] send auth request  
+[2016/12/15 00:54:55 012] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:55 014] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:55 016] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:55 019] transport  994  NAMESERVER START  
+[2016/12/15 00:54:55 023] transport  997  name =   ath  
+[2016/12/15 00:54:55 024] ns         727  ntt=  standard  
+[2016/12/15 00:54:55 025] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:55 027] ns         682  name server start  
+[2016/12/15 00:54:55 029] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:55 030] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:55 031] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:55 032] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:55 034] ns         663  net_type =  standard  
+[2016/12/15 00:54:55 035] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:55 037] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:55 038] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:55 039] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:55 044] auth       535  0  
+[2016/12/15 00:54:55 052] auth       498  lver:  nil  
+[2016/12/15 00:54:55 056] auth       503  cfg_ver:  nil  
+[2016/12/15 00:54:55 063] isr_local  2015 commit path:   res/asr/GrmBuilld/temp/commit  
+[2016/12/15 00:54:55 132] isr_local  2053 commit success!  
+[2016/12/15 00:54:55 138] isr_local  1387 esr_session_begin | esr_obj:start ret =  0  
+[2016/12/15 00:54:55 146] isr_local  2099 esr_session_begin, ret =   0  
+[2016/12/15 00:54:55 147] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 150] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 151] isr_local  601  audio buffered :   udata(103f23f8) 1  
+[2016/12/15 00:54:55 154] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 162] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 162] isr_local  601  audio buffered :   udata(103f26b8) 2  
+[2016/12/15 00:54:55 163] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 170] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 171] isr_local  601  audio buffered :   udata(103f2758) 2  
+[2016/12/15 00:54:55 171] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 176] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 176] isr_local  601  audio buffered :   udata(103f2588) 2  
+[2016/12/15 00:54:55 179] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 186] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 187] isr_local  601  audio buffered :   udata(103f2908) 2  
+[2016/12/15 00:54:55 188] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 195] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 196] isr_local  601  audio buffered :   udata(103f27f8) 2  
+[2016/12/15 00:54:55 197] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 204] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 204] isr_local  601  audio buffered :   udata(103f3ee8) 2  
+[2016/12/15 00:54:55 212] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 222] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 223] isr_local  601  audio buffered :   udata(103f2a08) 2  
+[2016/12/15 00:54:55 228] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 234] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 250] isr_local  601  audio buffered :   udata(103f4128) 2  
+[2016/12/15 00:54:55 252] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 261] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 267] isr_local  601  audio buffered :   udata(103f50c8) 2  
+[2016/12/15 00:54:55 268] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 275] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 276] isr_local  601  audio buffered :   udata(103f51c8) 2  
+[2016/12/15 00:54:55 277] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 281] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 281] isr_local  601  audio buffered :   udata(103f3fe8) 2  
+[2016/12/15 00:54:55 282] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 295] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 297] isr_local  601  audio buffered :   udata(103f5488) 2  
+[2016/12/15 00:54:55 302] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 304] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 307] isr_local  601  audio buffered :   udata(103f5588) 2  
+[2016/12/15 00:54:55 308] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 312] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:54:55 318] isr_local  601  audio buffered :   udata(103f5688) 4  
+[2016/12/15 00:54:55 319] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 327] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:55 327] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:55 328] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:55 343] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:55 350] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:55 353] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:55 358] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:55 359] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:55 371] isr_local  655  local engine ready  
+[2016/12/15 00:54:55 386] isr_local  585  esr_flush_buf_audio buffer audio num:  15  
+[2016/12/15 00:54:55 388] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 396] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 397] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 402] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 403] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 408] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 410] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 415] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 415] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 417] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 422] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 424] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 430] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 432] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 432] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 440] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 441] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 448] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 449] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 455] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 456] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 463] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 464] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 471] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 471] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 479] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 481] isr_local  1536 auwl =   6400  
+[2016/12/15 00:54:55 485] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 485] isr_local  1536 auwl =   5760  
+[2016/12/15 00:54:55 491] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:54:55 496] isr_local  630  local engine started  
+[2016/12/15 00:54:55 514] ns         244  ns soc error  10202  
+[2016/12/15 00:54:55 531] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:55 532] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:55 534] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:55 535] ns         113  use default ip  
+[2016/12/15 00:54:55 535] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:55 536] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:55 543] ns         756  no data in ns_q  
+[2016/12/15 00:54:55 544] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:55 551] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:55 554] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:55 555] transport  321  soc_conn_failed  
+[2016/12/15 00:54:55 558] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:55 560] transport  390  switch 80  
+[2016/12/15 00:54:55 574] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:55 644] isr_local  669  final result will throw out next!  
+[2016/12/15 00:54:55 651] isr_local  679  nRecognizeState:  1  
+[2016/12/15 00:54:55 651] isr_local  680  nConfidenceScore:  100  
+[2016/12/15 00:54:55 652] isr_local  728  result_type :   xml  
+[2016/12/15 00:54:55 653] isr_local  729  result_encoding :   UTF-8  
+[2016/12/15 00:54:55 654] isr_local  730  is iat :   false  
+[2016/12/15 00:54:55 657] isr_local  469  item_count:1  
+[2016/12/15 00:54:55 658] isr_local  293  nil  
+[2016/12/15 00:54:55 663] isr_local  675  recognized end!  
+[2016/12/15 00:54:55 783] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:55 786] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:55 792] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:55 794] transport  994  NAMESERVER START  
+[2016/12/15 00:54:55 796] transport  997  name =   ath  
+[2016/12/15 00:54:55 797] ns         727  ntt=  standard  
+[2016/12/15 00:54:55 799] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:55 799] ns         682  name server start  
+[2016/12/15 00:54:55 801] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:55 802] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:55 803] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:55 804] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:55 805] ns         663  net_type =  standard  
+[2016/12/15 00:54:55 806] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:55 807] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:55 808] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:55 809] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:55 819] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:55 820] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:55 821] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:55 829] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:55 833] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:55 837] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:55 839] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:55 842] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:55 849] ns         244  ns soc error  10202  
+[2016/12/15 00:54:55 850] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:55 851] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:55 852] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:55 852] ns         113  use default ip  
+[2016/12/15 00:54:55 853] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:55 854] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:55 855] ns         756  no data in ns_q  
+[2016/12/15 00:54:55 857] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:55 859] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:55 864] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:55 865] transport  321  soc_conn_failed  
+[2016/12/15 00:54:55 870] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:55 884] transport  390  switch 80  
+[2016/12/15 00:54:55 887] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:55 906] isr_local  2117 ASR_LOCAL_MSG_SSE  
+[2016/12/15 00:54:55 913] isr_local  1496 esr_session_end | esr_obj:stop ret =  0  
+[2016/12/15 00:54:55 915] isr_local  2119 esr_session_end, ret =  0  
+[2016/12/15 00:54:55 941] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:54:55 952] isr_local  638  local engine already stopped! stop cmd ignored  
+[2016/12/15 00:54:56 094] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:56 096] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:56 102] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 104] transport  994  NAMESERVER START  
+[2016/12/15 00:54:56 107] transport  997  name =   ath  
+[2016/12/15 00:54:56 109] ns         727  ntt=  standard  
+[2016/12/15 00:54:56 111] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:56 112] ns         682  name server start  
+[2016/12/15 00:54:56 113] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:56 115] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 116] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 117] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:56 118] ns         663  net_type =  standard  
+[2016/12/15 00:54:56 119] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:56 120] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:56 122] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:56 123] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:56 129] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:56 130] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:56 130] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:56 135] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:56 138] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 141] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 142] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:56 143] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:56 152] ns         244  ns soc error  10202  
+[2016/12/15 00:54:56 155] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:56 164] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:56 166] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 166] ns         113  use default ip  
+[2016/12/15 00:54:56 168] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:56 170] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:56 171] ns         756  no data in ns_q  
+[2016/12/15 00:54:56 173] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:56 177] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:56 181] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:56 182] transport  321  soc_conn_failed  
+[2016/12/15 00:54:56 183] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 187] transport  390  switch 80  
+[2016/12/15 00:54:56 195] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:56 401] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:56 402] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:56 405] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 406] transport  994  NAMESERVER START  
+[2016/12/15 00:54:56 407] transport  997  name =   ath  
+[2016/12/15 00:54:56 408] ns         727  ntt=  standard  
+[2016/12/15 00:54:56 408] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:56 409] ns         682  name server start  
+[2016/12/15 00:54:56 410] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:56 411] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 412] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 414] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:56 416] ns         663  net_type =  standard  
+[2016/12/15 00:54:56 418] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:56 418] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:56 419] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:56 420] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:56 427] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:56 428] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:56 429] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:56 434] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:56 437] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 441] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 442] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:56 443] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:56 448] ns         244  ns soc error  10202  
+[2016/12/15 00:54:56 449] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:56 450] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:56 451] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 451] ns         113  use default ip  
+[2016/12/15 00:54:56 452] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:56 453] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:56 453] ns         756  no data in ns_q  
+[2016/12/15 00:54:56 454] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:56 456] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:56 458] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:56 459] transport  321  soc_conn_failed  
+[2016/12/15 00:54:56 459] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 462] transport  390  switch 80  
+[2016/12/15 00:54:56 465] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:56 669] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:56 671] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:56 679] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 681] transport  994  NAMESERVER START  
+[2016/12/15 00:54:56 683] transport  997  name =   ath  
+[2016/12/15 00:54:56 690] ns         727  ntt=  standard  
+[2016/12/15 00:54:56 692] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:56 693] ns         682  name server start  
+[2016/12/15 00:54:56 694] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:56 695] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 696] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 697] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:56 699] ns         663  net_type =  standard  
+[2016/12/15 00:54:56 701] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:56 703] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:56 705] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:56 706] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:56 713] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:56 714] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:56 715] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:56 720] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:56 725] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 730] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 732] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:56 733] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:56 739] ns         244  ns soc error  10202  
+[2016/12/15 00:54:56 741] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:56 742] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:56 744] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 745] ns         113  use default ip  
+[2016/12/15 00:54:56 745] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:56 746] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:56 746] ns         756  no data in ns_q  
+[2016/12/15 00:54:56 747] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:56 749] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:56 750] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:56 751] transport  321  soc_conn_failed  
+[2016/12/15 00:54:56 751] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 753] transport  390  switch 80  
+[2016/12/15 00:54:56 758] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:56 964] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:56 968] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:56 974] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:56 975] transport  994  NAMESERVER START  
+[2016/12/15 00:54:56 977] transport  997  name =   ath  
+[2016/12/15 00:54:56 979] ns         727  ntt=  standard  
+[2016/12/15 00:54:56 981] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:56 982] ns         682  name server start  
+[2016/12/15 00:54:56 983] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:56 984] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 985] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:56 986] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:56 987] ns         663  net_type =  standard  
+[2016/12/15 00:54:56 988] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:56 989] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:56 990] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:56 991] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:57 000] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:57 000] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:57 002] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:57 010] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:57 013] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 018] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 019] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:57 020] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:57 025] ns         244  ns soc error  10202  
+[2016/12/15 00:54:57 028] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:57 031] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:57 032] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 033] ns         113  use default ip  
+[2016/12/15 00:54:57 034] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:57 035] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:57 035] ns         756  no data in ns_q  
+[2016/12/15 00:54:57 036] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:57 039] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:57 041] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:57 041] transport  321  soc_conn_failed  
+[2016/12/15 00:54:57 042] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 045] transport  390  switch 80  
+[2016/12/15 00:54:57 048] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:57 252] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:57 257] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:57 262] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 263] transport  994  NAMESERVER START  
+[2016/12/15 00:54:57 265] transport  997  name =   ath  
+[2016/12/15 00:54:57 266] ns         727  ntt=  standard  
+[2016/12/15 00:54:57 267] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:57 268] ns         682  name server start  
+[2016/12/15 00:54:57 269] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:57 270] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 271] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 272] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:57 273] ns         663  net_type =  standard  
+[2016/12/15 00:54:57 274] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:57 275] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:57 275] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:57 276] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:57 282] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:57 283] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:57 284] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:57 291] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:57 294] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 297] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 297] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:57 299] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:57 304] ns         244  ns soc error  10202  
+[2016/12/15 00:54:57 307] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:57 308] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:57 309] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 310] ns         113  use default ip  
+[2016/12/15 00:54:57 311] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:57 311] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:57 312] ns         756  no data in ns_q  
+[2016/12/15 00:54:57 313] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:57 315] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:57 317] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:57 318] transport  321  soc_conn_failed  
+[2016/12/15 00:54:57 318] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 321] transport  390  switch 80  
+[2016/12/15 00:54:57 325] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:57 530] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:57 531] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:57 533] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 534] transport  994  NAMESERVER START  
+[2016/12/15 00:54:57 535] transport  997  name =   ath  
+[2016/12/15 00:54:57 535] ns         727  ntt=  standard  
+[2016/12/15 00:54:57 536] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:57 537] ns         682  name server start  
+[2016/12/15 00:54:57 537] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:57 538] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 539] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 540] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:57 541] ns         663  net_type =  standard  
+[2016/12/15 00:54:57 542] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:57 543] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:57 544] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:57 544] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:57 549] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:57 550] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:57 550] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:57 557] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:57 559] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 562] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 563] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:57 565] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:57 569] ns         244  ns soc error  10202  
+[2016/12/15 00:54:57 571] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:57 573] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:57 574] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 574] ns         113  use default ip  
+[2016/12/15 00:54:57 575] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:57 576] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:57 576] ns         756  no data in ns_q  
+[2016/12/15 00:54:57 577] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:57 579] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:57 581] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:57 581] transport  321  soc_conn_failed  
+[2016/12/15 00:54:57 582] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 585] transport  390  switch 80  
+[2016/12/15 00:54:57 588] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:57 795] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:57 798] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:57 802] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 803] transport  994  NAMESERVER START  
+[2016/12/15 00:54:57 805] transport  997  name =   ath  
+[2016/12/15 00:54:57 805] ns         727  ntt=  standard  
+[2016/12/15 00:54:57 806] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:57 808] ns         682  name server start  
+[2016/12/15 00:54:57 808] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:57 809] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 810] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 811] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:57 814] ns         663  net_type =  standard  
+[2016/12/15 00:54:57 815] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:57 817] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:57 818] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:57 819] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:57 830] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:57 831] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:57 832] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:57 842] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:57 846] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 849] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 850] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:57 852] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:57 860] ns         244  ns soc error  10202  
+[2016/12/15 00:54:57 862] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:57 863] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:57 864] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:57 864] ns         113  use default ip  
+[2016/12/15 00:54:57 865] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:57 865] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:57 866] ns         756  no data in ns_q  
+[2016/12/15 00:54:57 866] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:57 868] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:57 870] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:57 870] transport  321  soc_conn_failed  
+[2016/12/15 00:54:57 871] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:57 874] transport  390  switch 80  
+[2016/12/15 00:54:57 878] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:58 082] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:58 084] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:58 091] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 094] transport  994  NAMESERVER START  
+[2016/12/15 00:54:58 095] transport  997  name =   ath  
+[2016/12/15 00:54:58 096] ns         727  ntt=  standard  
+[2016/12/15 00:54:58 096] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:58 097] ns         682  name server start  
+[2016/12/15 00:54:58 098] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:58 099] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 101] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 102] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:58 104] ns         663  net_type =  standard  
+[2016/12/15 00:54:58 106] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:58 108] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:58 109] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:58 111] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:58 121] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:58 123] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:58 124] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:58 130] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:58 132] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 134] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 134] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:58 136] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:58 143] ns         244  ns soc error  10202  
+[2016/12/15 00:54:58 149] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:58 150] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:58 151] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 151] ns         113  use default ip  
+[2016/12/15 00:54:58 153] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:58 154] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:58 155] ns         756  no data in ns_q  
+[2016/12/15 00:54:58 156] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:58 160] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:58 163] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:58 165] transport  321  soc_conn_failed  
+[2016/12/15 00:54:58 166] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 169] transport  390  switch 80  
+[2016/12/15 00:54:58 175] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:58 386] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:58 389] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:58 396] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 398] transport  994  NAMESERVER START  
+[2016/12/15 00:54:58 399] transport  997  name =   ath  
+[2016/12/15 00:54:58 400] ns         727  ntt=  standard  
+[2016/12/15 00:54:58 401] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:58 402] ns         682  name server start  
+[2016/12/15 00:54:58 403] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:58 403] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 404] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 405] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:58 406] ns         663  net_type =  standard  
+[2016/12/15 00:54:58 407] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:58 408] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:58 408] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:58 409] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:58 414] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:58 416] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:58 417] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:58 427] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:58 430] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 432] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 435] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:58 438] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:58 449] ns         244  ns soc error  10202  
+[2016/12/15 00:54:58 454] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:58 456] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:58 457] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 458] ns         113  use default ip  
+[2016/12/15 00:54:58 459] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:58 460] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:58 461] ns         756  no data in ns_q  
+[2016/12/15 00:54:58 463] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:58 466] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:58 471] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:58 473] transport  321  soc_conn_failed  
+[2016/12/15 00:54:58 475] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 478] transport  390  switch 80  
+[2016/12/15 00:54:58 486] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:58 698] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:58 698] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:58 702] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 703] transport  994  NAMESERVER START  
+[2016/12/15 00:54:58 703] transport  997  name =   ath  
+[2016/12/15 00:54:58 704] ns         727  ntt=  standard  
+[2016/12/15 00:54:58 705] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:58 706] ns         682  name server start  
+[2016/12/15 00:54:58 708] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:58 710] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 711] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 714] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:58 716] ns         663  net_type =  standard  
+[2016/12/15 00:54:58 718] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:58 719] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:58 720] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:58 721] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:58 728] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:58 729] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:58 730] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:58 735] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:58 737] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 742] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 745] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:58 747] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:58 753] ns         244  ns soc error  10202  
+[2016/12/15 00:54:58 757] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:58 758] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:58 759] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:58 760] ns         113  use default ip  
+[2016/12/15 00:54:58 761] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:58 762] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:58 763] ns         756  no data in ns_q  
+[2016/12/15 00:54:58 763] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:58 765] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:58 767] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:58 768] transport  321  soc_conn_failed  
+[2016/12/15 00:54:58 768] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 771] transport  390  switch 80  
+[2016/12/15 00:54:58 775] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:58 982] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:58 984] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:58 992] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:58 994] transport  994  NAMESERVER START  
+[2016/12/15 00:54:58 995] transport  997  name =   ath  
+[2016/12/15 00:54:58 996] ns         727  ntt=  standard  
+[2016/12/15 00:54:58 998] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:58 999] ns         682  name server start  
+[2016/12/15 00:54:59 000] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:59 001] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 002] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 003] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:59 006] ns         663  net_type =  standard  
+[2016/12/15 00:54:59 007] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:59 009] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:59 010] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:59 012] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:59 022] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:59 024] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:59 024] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:59 030] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:59 033] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 036] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 037] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:59 038] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:59 043] ns         244  ns soc error  10202  
+[2016/12/15 00:54:59 045] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:59 046] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:59 046] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 047] ns         113  use default ip  
+[2016/12/15 00:54:59 047] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:59 048] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:59 048] ns         756  no data in ns_q  
+[2016/12/15 00:54:59 049] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:59 051] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:59 052] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:59 053] transport  321  soc_conn_failed  
+[2016/12/15 00:54:59 053] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 056] transport  390  switch 80  
+[2016/12/15 00:54:59 061] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:59 266] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:59 267] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:59 275] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 276] transport  994  NAMESERVER START  
+[2016/12/15 00:54:59 278] transport  997  name =   ath  
+[2016/12/15 00:54:59 280] ns         727  ntt=  standard  
+[2016/12/15 00:54:59 281] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:59 282] ns         682  name server start  
+[2016/12/15 00:54:59 284] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:59 286] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 287] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 289] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:59 291] ns         663  net_type =  standard  
+[2016/12/15 00:54:59 292] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:59 293] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:59 294] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:59 295] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:59 308] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:59 310] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:59 311] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:59 321] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:59 325] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 328] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 328] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:59 330] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:59 334] ns         244  ns soc error  10202  
+[2016/12/15 00:54:59 335] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:59 336] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:59 336] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 337] ns         113  use default ip  
+[2016/12/15 00:54:59 338] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:59 340] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:59 342] ns         756  no data in ns_q  
+[2016/12/15 00:54:59 344] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:59 346] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:59 348] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:59 348] transport  321  soc_conn_failed  
+[2016/12/15 00:54:59 349] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 354] transport  390  switch 80  
+[2016/12/15 00:54:59 359] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:59 568] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:59 570] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:59 578] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 579] transport  994  NAMESERVER START  
+[2016/12/15 00:54:59 580] transport  997  name =   ath  
+[2016/12/15 00:54:59 581] ns         727  ntt=  standard  
+[2016/12/15 00:54:59 582] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:59 583] ns         682  name server start  
+[2016/12/15 00:54:59 584] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:59 584] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 585] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 585] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:59 587] ns         663  net_type =  standard  
+[2016/12/15 00:54:59 588] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:59 589] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:59 590] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:59 592] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:59 602] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:59 604] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:59 605] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:59 613] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:59 616] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 618] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 619] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:59 621] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:59 632] ns         244  ns soc error  10202  
+[2016/12/15 00:54:59 635] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:59 636] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:59 637] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 638] ns         113  use default ip  
+[2016/12/15 00:54:59 640] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:59 641] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:59 643] ns         756  no data in ns_q  
+[2016/12/15 00:54:59 643] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:59 645] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:59 647] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:59 647] transport  321  soc_conn_failed  
+[2016/12/15 00:54:59 648] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 651] transport  390  switch 80  
+[2016/12/15 00:54:59 658] transport  1198 [soc] disconnect   
+[2016/12/15 00:54:59 864] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:54:59 866] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:54:59 875] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 877] transport  994  NAMESERVER START  
+[2016/12/15 00:54:59 878] transport  997  name =   ath  
+[2016/12/15 00:54:59 879] ns         727  ntt=  standard  
+[2016/12/15 00:54:59 881] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:54:59 882] ns         682  name server start  
+[2016/12/15 00:54:59 883] ns         683  ns_sub =   ath  
+[2016/12/15 00:54:59 885] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 885] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 886] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:54:59 887] ns         663  net_type =  standard  
+[2016/12/15 00:54:59 888] ns         664  cmwapascmnet =  
+[2016/12/15 00:54:59 890] ns         665  uniwapasuninet =  
+[2016/12/15 00:54:59 891] ns         666  ctwapasctnet =  
+[2016/12/15 00:54:59 892] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:54:59 896] ns         290  ns dns resp  10214  
+[2016/12/15 00:54:59 897] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:54:59 897] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:54:59 902] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:54:59 906] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 912] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 913] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:54:59 916] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:54:59 924] ns         244  ns soc error  10202  
+[2016/12/15 00:54:59 926] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:54:59 926] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:54:59 927] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:54:59 928] ns         113  use default ip  
+[2016/12/15 00:54:59 928] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:54:59 929] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:59 929] ns         756  no data in ns_q  
+[2016/12/15 00:54:59 930] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:54:59 932] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:54:59 933] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:54:59 934] transport  321  soc_conn_failed  
+[2016/12/15 00:54:59 934] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:54:59 936] transport  390  switch 80  
+[2016/12/15 00:54:59 944] transport  1198 [soc] disconnect   
+[2016/12/15 00:55:00 149] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:55:00 152] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:55:00 158] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 160] transport  994  NAMESERVER START  
+[2016/12/15 00:55:00 162] transport  997  name =   ath  
+[2016/12/15 00:55:00 163] ns         727  ntt=  standard  
+[2016/12/15 00:55:00 164] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:55:00 165] ns         682  name server start  
+[2016/12/15 00:55:00 166] ns         683  ns_sub =   ath  
+[2016/12/15 00:55:00 166] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 167] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 167] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:55:00 168] ns         663  net_type =  standard  
+[2016/12/15 00:55:00 169] ns         664  cmwapascmnet =  
+[2016/12/15 00:55:00 170] ns         665  uniwapasuninet =  
+[2016/12/15 00:55:00 170] ns         666  ctwapasctnet =  
+[2016/12/15 00:55:00 171] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:55:00 182] ns         290  ns dns resp  10214  
+[2016/12/15 00:55:00 184] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:55:00 185] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:55:00 194] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:55:00 196] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 198] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 199] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:55:00 200] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:55:00 204] ns         244  ns soc error  10202  
+[2016/12/15 00:55:00 207] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:55:00 208] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:55:00 209] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 209] ns         113  use default ip  
+[2016/12/15 00:55:00 210] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:55:00 211] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:00 211] ns         756  no data in ns_q  
+[2016/12/15 00:55:00 212] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:55:00 214] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:55:00 215] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:00 216] transport  321  soc_conn_failed  
+[2016/12/15 00:55:00 216] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 218] transport  390  switch 80  
+[2016/12/15 00:55:00 226] transport  1198 [soc] disconnect   
+[2016/12/15 00:55:00 432] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:55:00 434] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:55:00 439] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 440] transport  994  NAMESERVER START  
+[2016/12/15 00:55:00 442] transport  997  name =   ath  
+[2016/12/15 00:55:00 443] ns         727  ntt=  standard  
+[2016/12/15 00:55:00 446] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:55:00 447] ns         682  name server start  
+[2016/12/15 00:55:00 449] ns         683  ns_sub =   ath  
+[2016/12/15 00:55:00 450] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 451] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 452] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:55:00 454] ns         663  net_type =  standard  
+[2016/12/15 00:55:00 455] ns         664  cmwapascmnet =  
+[2016/12/15 00:55:00 458] ns         665  uniwapasuninet =  
+[2016/12/15 00:55:00 459] ns         666  ctwapasctnet =  
+[2016/12/15 00:55:00 461] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:55:00 467] ns         290  ns dns resp  10214  
+[2016/12/15 00:55:00 468] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:55:00 469] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:55:00 474] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:55:00 477] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 480] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 481] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:55:00 482] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:55:00 487] ns         244  ns soc error  10202  
+[2016/12/15 00:55:00 488] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:55:00 490] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:55:00 491] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 492] ns         113  use default ip  
+[2016/12/15 00:55:00 492] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:55:00 493] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:00 494] ns         756  no data in ns_q  
+[2016/12/15 00:55:00 494] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:55:00 496] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:55:00 497] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:00 499] transport  321  soc_conn_failed  
+[2016/12/15 00:55:00 500] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 505] transport  390  switch 80  
+[2016/12/15 00:55:00 511] transport  1198 [soc] disconnect   
+[2016/12/15 00:55:00 715] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:55:00 717] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:55:00 724] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 726] transport  994  NAMESERVER START  
+[2016/12/15 00:55:00 728] transport  997  name =   ath  
+[2016/12/15 00:55:00 728] ns         727  ntt=  standard  
+[2016/12/15 00:55:00 729] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:55:00 730] ns         682  name server start  
+[2016/12/15 00:55:00 731] ns         683  ns_sub =   ath  
+[2016/12/15 00:55:00 732] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 732] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 733] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:55:00 735] ns         663  net_type =  standard  
+[2016/12/15 00:55:00 736] ns         664  cmwapascmnet =  
+[2016/12/15 00:55:00 736] ns         665  uniwapasuninet =  
+[2016/12/15 00:55:00 737] ns         666  ctwapasctnet =  
+[2016/12/15 00:55:00 738] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:55:00 751] ns         290  ns dns resp  10214  
+[2016/12/15 00:55:00 752] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:55:00 753] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:55:00 759] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:55:00 764] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 769] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 770] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:55:00 772] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:55:00 779] ns         244  ns soc error  10202  
+[2016/12/15 00:55:00 781] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:55:00 781] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:55:00 782] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:00 783] ns         113  use default ip  
+[2016/12/15 00:55:00 783] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:55:00 784] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:00 784] ns         756  no data in ns_q  
+[2016/12/15 00:55:00 785] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:55:00 787] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:55:00 788] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:00 791] transport  321  soc_conn_failed  
+[2016/12/15 00:55:00 793] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:00 797] transport  390  switch 80  
+[2016/12/15 00:55:00 805] transport  1198 [soc] disconnect   
+[2016/12/15 00:55:01 011] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:55:01 013] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:55:01 019] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:01 021] transport  994  NAMESERVER START  
+[2016/12/15 00:55:01 023] transport  997  name =   ath  
+[2016/12/15 00:55:01 026] ns         727  ntt=  standard  
+[2016/12/15 00:55:01 027] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:55:01 029] ns         682  name server start  
+[2016/12/15 00:55:01 031] ns         683  ns_sub =   ath  
+[2016/12/15 00:55:01 032] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:01 034] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:01 036] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:55:01 039] ns         663  net_type =  standard  
+[2016/12/15 00:55:01 041] ns         664  cmwapascmnet =  
+[2016/12/15 00:55:01 043] ns         665  uniwapasuninet =  
+[2016/12/15 00:55:01 044] ns         666  ctwapasctnet =  
+[2016/12/15 00:55:01 045] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:55:01 051] ns         290  ns dns resp  10214  
+[2016/12/15 00:55:01 052] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:55:01 052] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:55:01 061] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:55:01 064] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:01 068] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:01 069] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:55:01 071] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:55:01 078] ns         244  ns soc error  10202  
+[2016/12/15 00:55:01 081] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:55:01 082] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:55:01 083] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:01 083] ns         113  use default ip  
+[2016/12/15 00:55:01 084] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:55:01 085] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:01 086] ns         756  no data in ns_q  
+[2016/12/15 00:55:01 087] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:55:01 088] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:55:01 091] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:01 091] transport  321  soc_conn_failed  
+[2016/12/15 00:55:01 092] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:01 096] transport  390  switch 80  
+[2016/12/15 00:55:01 100] transport  1198 [soc] disconnect   
+[2016/12/15 00:55:01 305] transport  959  session.domain=  open.xf-yun.com  
+[2016/12/15 00:55:01 308] transport  960  url.host=  open.xf-yun.com  
+[2016/12/15 00:55:01 315] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:01 316] transport  994  NAMESERVER START  
+[2016/12/15 00:55:01 318] transport  997  name =   ath  
+[2016/12/15 00:55:01 319] ns         727  ntt=  standard  
+[2016/12/15 00:55:01 320] transport  1000 trans,ns_inprog =  0  
+[2016/12/15 00:55:01 321] ns         682  name server start  
+[2016/12/15 00:55:01 323] ns         683  ns_sub =   ath  
+[2016/12/15 00:55:01 323] ns         685  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:01 324] ns         403  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:01 325] ns         662  GET /sip/resolver?srand=1215005411.32 HTTP/1.1
+Host: hdns.openspeech.cn
+Connection: Keep-Alive
+X-Par: ver=1.2&appid=583467f7&operator=UNKNOW&nettype=STANDARD&cver=5.0.27.1135&svc=ath&host=open.xf-yun.com&sign=707f507a8720657cf67ce2cd64be3915
+User-Agent: iFLYCloud
+
+  
+[2016/12/15 00:55:01 326] ns         663  net_type =  standard  
+[2016/12/15 00:55:01 327] ns         664  cmwapascmnet =  
+[2016/12/15 00:55:01 328] ns         665  uniwapasuninet =  
+[2016/12/15 00:55:01 329] ns         666  ctwapasctnet =  
+[2016/12/15 00:55:01 331] ns         676  host=  hdns.openspeech.cn  
+[2016/12/15 00:55:01 342] ns         290  ns dns resp  10214  
+[2016/12/15 00:55:01 343] ns         564  ns dns failed, err =   10214  
+[2016/12/15 00:55:01 344] ns         174  ns gethttpresp  117.121.48.5  80  
+[2016/12/15 00:55:01 352] transport  295  [dns] [0] failed! 10214  
+[2016/12/15 00:55:01 354] network    83   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:01 358] network    83   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:01 359] transport  1166 [soc] connect   116.213.69.195  80  
+[2016/12/15 00:55:01 361] transport  1183 mspsoc.open,prot_type=  tcp  
+[2016/12/15 00:55:01 365] ns         244  ns soc error  10202  
+[2016/12/15 00:55:01 366] ns         407  name server http resp  nil  10202  nil  
+[2016/12/15 00:55:01 366] ns         551  ns response failed, err =  10202  
+[2016/12/15 00:55:01 367] ns         111  ns_host=  open.xf-yun.com  
+[2016/12/15 00:55:01 367] ns         113  use default ip  
+[2016/12/15 00:55:01 368] transport  974  ns_ip =   116.213.69.195  
+[2016/12/15 00:55:01 368] transport  975  ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:01 369] ns         756  no data in ns_q  
+[2016/12/15 00:55:01 370] ns         757  conti_ns,ns_inprog =   1  
+[2016/12/15 00:55:01 372] transport  545  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:55:01 374] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:01 374] transport  321  soc_conn_failed  
+[2016/12/15 00:55:01 375] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:01 378] transport  390  switch 80  
+[2016/12/15 00:55:01 381] transport  1198 [soc] disconnect   
+[2016/12/15 00:55:01 384] transport  49   throw_exception  10202  101  MSC:[soc] [0] error 10202 101!  
+[2016/12/15 00:55:01 386] auth       427  [trans] [id = table: 0x7f161007cba0;;;=0===;auth] exception 10202  
+[2016/12/15 00:55:01 388] auth       432  auth trytimes =   6  
+[2016/12/15 00:55:03 859] isr_local  2183 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2016/12/15 00:55:03 862] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:03 895] isr_local  2091 ASR_LOCAL_MSG_SSB  
+[2016/12/15 00:55:03 907] isr_local  1229 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=cmd,result_type=xml,result_encoding=UTF-8  
+[2016/12/15 00:55:03 908] isr_local  801  engine_type  :  local  
+[2016/12/15 00:55:03 911] isr_local  801  asr_res_path  :  fo|res/asr/common.jet  
+[2016/12/15 00:55:03 918] isr_local  801  sample_rate  :  16000  
+[2016/12/15 00:55:03 921] isr_local  801  grm_build_path  :  res/asr/GrmBuilld  
+[2016/12/15 00:55:03 923] isr_local  801  local_grammar  :  cmd  
+[2016/12/15 00:55:03 926] isr_local  801  result_type  :  xml  
+[2016/12/15 00:55:03 931] isr_local  801  result_encoding  :  UTF-8  
+[2016/12/15 00:55:03 935] isr_local  1272 authorized_aitalk=  1  
+[2016/12/15 00:55:03 937] isr_local  1273 forbid_aitalk=  nil  
+[2016/12/15 00:55:03 948] isr_local  2015 commit path:   res/asr/GrmBuilld/temp/commit  
+[2016/12/15 00:55:03 960] isr_local  1387 esr_session_begin | esr_obj:start ret =  0  
+[2016/12/15 00:55:03 963] isr_local  2099 esr_session_begin, ret =   0  
+[2016/12/15 00:55:03 966] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 048] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 050] isr_local  601  audio buffered :   udata(1040f3b8) 1  
+[2016/12/15 00:55:04 054] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 067] isr_local  655  local engine ready  
+[2016/12/15 00:55:04 138] isr_local  585  esr_flush_buf_audio buffer audio num:  1  
+[2016/12/15 00:55:04 154] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 163] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:55:04 229] isr_local  630  local engine started  
+[2016/12/15 00:55:04 248] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 279] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 516] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 535] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 556] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 562] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 570] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 571] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 580] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 580] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 582] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 587] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 588] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 595] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 602] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 602] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 610] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 611] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 612] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 618] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 619] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 620] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 628] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 628] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 635] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 645] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 659] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 665] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 670] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 672] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 679] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 679] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 687] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 687] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 695] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 696] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 704] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 710] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 712] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 712] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 719] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 720] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 729] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 735] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 737] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 742] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 744] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 746] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 753] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 760] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:04 765] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 779] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 787] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:04 795] isr_local  1536 auwl =   5760  
+[2016/12/15 00:55:04 803] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:04 803] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:04 830] isr_local  669  final result will throw out next!  
+[2016/12/15 00:55:04 835] isr_local  679  nRecognizeState:  1  
+[2016/12/15 00:55:04 838] isr_local  680  nConfidenceScore:  0  
+[2016/12/15 00:55:04 840] isr_local  728  result_type :   xml  
+[2016/12/15 00:55:04 840] isr_local  729  result_encoding :   UTF-8  
+[2016/12/15 00:55:04 841] isr_local  730  is iat :   false  
+[2016/12/15 00:55:04 842] isr_local  469  item_count:1  
+[2016/12/15 00:55:04 842] isr_local  293  nil  
+[2016/12/15 00:55:04 846] isr_local  675  recognized end!  
+[2016/12/15 00:55:05 041] isr_local  2117 ASR_LOCAL_MSG_SSE  
+[2016/12/15 00:55:05 045] isr_local  1496 esr_session_end | esr_obj:stop ret =  0  
+[2016/12/15 00:55:05 049] isr_local  2119 esr_session_end, ret =  0  
+[2016/12/15 00:55:05 082] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:05 141] isr_local  638  local engine already stopped! stop cmd ignored  
+[2016/12/15 00:55:06 366] transport  321  soc_conn_failed  
+[2016/12/15 00:55:06 368] network    88   iptoenv ,  ipcache  open.xf-yun.com  def  nil  
+[2016/12/15 00:55:06 377] transport  390  switch 80  
+[2016/12/15 00:55:06 387] transport  411  MSC:[soc] [0] conn timeout!  
+[2016/12/15 00:55:06 394] transport  1198 [soc] disconnect   
+[2016/12/15 00:55:06 398] transport  57   clear_ip ip_type =  def_athopen.xf-yun.com  
+[2016/12/15 00:55:06 399] transport  49   throw_exception  10114  0  MSC:[soc] [0] conn timeout!  
+[2016/12/15 00:55:06 401] auth       427  [trans] [id = table: 0x7f161007cba0;;;=0===;auth] exception 10114  
+[2016/12/15 00:55:13 372] isr_local  2183 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2016/12/15 00:55:13 400] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:13 412] isr_local  2091 ASR_LOCAL_MSG_SSB  
+[2016/12/15 00:55:13 420] isr_local  1229 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=cmd,result_type=xml,result_encoding=UTF-8  
+[2016/12/15 00:55:13 424] isr_local  801  engine_type  :  local  
+[2016/12/15 00:55:13 431] isr_local  801  asr_res_path  :  fo|res/asr/common.jet  
+[2016/12/15 00:55:13 435] isr_local  801  sample_rate  :  16000  
+[2016/12/15 00:55:13 437] isr_local  801  grm_build_path  :  res/asr/GrmBuilld  
+[2016/12/15 00:55:13 444] isr_local  801  local_grammar  :  cmd  
+[2016/12/15 00:55:13 446] isr_local  801  result_type  :  xml  
+[2016/12/15 00:55:13 449] isr_local  801  result_encoding  :  UTF-8  
+[2016/12/15 00:55:13 453] isr_local  1272 authorized_aitalk=  1  
+[2016/12/15 00:55:13 457] isr_local  1273 forbid_aitalk=  nil  
+[2016/12/15 00:55:13 467] isr_local  2015 commit path:   res/asr/GrmBuilld/temp/commit  
+[2016/12/15 00:55:13 483] isr_local  1387 esr_session_begin | esr_obj:start ret =  0  
+[2016/12/15 00:55:13 490] isr_local  2099 esr_session_begin, ret =   0  
+[2016/12/15 00:55:13 495] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:13 540] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:13 544] isr_local  601  audio buffered :   udata(10420aa8) 1  
+[2016/12/15 00:55:13 547] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:13 550] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:13 551] isr_local  601  audio buffered :   udata(1041a368) 2  
+[2016/12/15 00:55:13 552] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:13 556] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:13 557] isr_local  601  audio buffered :   udata(10419a98) 2  
+[2016/12/15 00:55:13 558] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:13 565] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:13 566] isr_local  601  audio buffered :   udata(103eb9e8) 2  
+[2016/12/15 00:55:13 567] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:13 573] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:13 574] isr_local  601  audio buffered :   udata(103fcb08) 2  
+[2016/12/15 00:55:13 576] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:13 579] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:13 587] isr_local  601  audio buffered :   udata(10406248) 2  
+[2016/12/15 00:55:13 627] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:13 636] isr_local  655  local engine ready  
+[2016/12/15 00:55:13 661] isr_local  585  esr_flush_buf_audio buffer audio num:  6  
+[2016/12/15 00:55:13 668] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:13 696] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:55:13 719] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:13 783] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:55:13 797] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:13 811] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:55:13 828] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:13 837] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:55:13 844] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 071] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:55:14 075] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 096] isr_local  590  esr_audio_write, ret =  0  
+[2016/12/15 00:55:14 127] isr_local  630  local engine started  
+[2016/12/15 00:55:14 137] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 142] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 150] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 150] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 152] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 158] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 160] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 166] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 168] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 176] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 183] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 184] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 198] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 207] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 214] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 224] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 231] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 232] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 239] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 246] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 254] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 255] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 262] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 263] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 270] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 270] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 271] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 278] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 280] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 286] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:14 291] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 295] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 308] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:14 315] isr_local  1536 auwl =   5760  
+[2016/12/15 00:55:14 318] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:14 331] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 347] isr_local  669  final result will throw out next!  
+[2016/12/15 00:55:14 349] isr_local  679  nRecognizeState:  1  
+[2016/12/15 00:55:14 350] isr_local  680  nConfidenceScore:  0  
+[2016/12/15 00:55:14 350] isr_local  728  result_type :   xml  
+[2016/12/15 00:55:14 351] isr_local  729  result_encoding :   UTF-8  
+[2016/12/15 00:55:14 352] isr_local  730  is iat :   false  
+[2016/12/15 00:55:14 353] isr_local  469  item_count:1  
+[2016/12/15 00:55:14 353] isr_local  293  nil  
+[2016/12/15 00:55:14 356] isr_local  675  recognized end!  
+[2016/12/15 00:55:14 593] isr_local  2117 ASR_LOCAL_MSG_SSE  
+[2016/12/15 00:55:14 596] isr_local  1496 esr_session_end | esr_obj:stop ret =  0  
+[2016/12/15 00:55:14 598] isr_local  2119 esr_session_end, ret =  0  
+[2016/12/15 00:55:14 639] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:14 654] isr_local  638  local engine already stopped! stop cmd ignored  
+[2016/12/15 00:55:20 333] isr_local  2183 SYS_MSG_REGCB_LOCAL| param0 =  local_service_cbmsg  
+[2016/12/15 00:55:20 335] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:20 338] isr_local  2091 ASR_LOCAL_MSG_SSB  
+[2016/12/15 00:55:20 339] isr_local  1229 esr_session_begin | params:  engine_type=local,asr_res_path=fo|res/asr/common.jet,sample_rate=16000,grm_build_path=res/asr/GrmBuilld,local_grammar=cmd,result_type=xml,result_encoding=UTF-8  
+[2016/12/15 00:55:20 341] isr_local  801  engine_type  :  local  
+[2016/12/15 00:55:20 342] isr_local  801  asr_res_path  :  fo|res/asr/common.jet  
+[2016/12/15 00:55:20 343] isr_local  801  sample_rate  :  16000  
+[2016/12/15 00:55:20 344] isr_local  801  grm_build_path  :  res/asr/GrmBuilld  
+[2016/12/15 00:55:20 346] isr_local  801  local_grammar  :  cmd  
+[2016/12/15 00:55:20 349] isr_local  801  result_type  :  xml  
+[2016/12/15 00:55:20 351] isr_local  801  result_encoding  :  UTF-8  
+[2016/12/15 00:55:20 355] isr_local  1272 authorized_aitalk=  1  
+[2016/12/15 00:55:20 360] isr_local  1273 forbid_aitalk=  nil  
+[2016/12/15 00:55:20 365] isr_local  2015 commit path:   res/asr/GrmBuilld/temp/commit  
+[2016/12/15 00:55:20 379] isr_local  1387 esr_session_begin | esr_obj:start ret =  0  
+[2016/12/15 00:55:20 382] isr_local  2099 esr_session_begin, ret =   0  
+[2016/12/15 00:55:20 386] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:20 483] isr_local  655  local engine ready  
+[2016/12/15 00:55:20 486] isr_local  585  esr_flush_buf_audio buffer audio num:  0  
+[2016/12/15 00:55:20 529] isr_local  630  local engine started  
+[2016/12/15 00:55:20 577] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:20 582] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:20 610] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:20 631] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:20 668] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:20 676] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:20 684] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:20 700] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:20 706] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:20 782] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:20 815] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:20 838] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:20 851] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:20 916] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:20 941] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:20 955] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 003] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 037] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 043] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 242] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 275] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 299] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 300] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 300] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 308] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 315] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 316] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 316] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 324] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 331] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 333] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 339] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 345] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 351] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 359] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 361] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 368] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 374] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 376] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 382] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 390] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 391] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 394] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 398] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 408] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 416] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 424] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 430] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 440] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 441] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 448] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 454] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 462] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 463] isr_local  1536 auwl =   6400  
+[2016/12/15 00:55:21 464] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 470] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 472] isr_local  2103 ASR_LOCAL_MSG_AUW  
+[2016/12/15 00:55:21 478] isr_local  1536 auwl =   5760  
+[2016/12/15 00:55:21 491] isr_local  2112 esr_audio_write, ret =  nil  
+[2016/12/15 00:55:21 493] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 513] isr_local  669  final result will throw out next!  
+[2016/12/15 00:55:21 528] isr_local  679  nRecognizeState:  1  
+[2016/12/15 00:55:21 530] isr_local  680  nConfidenceScore:  99  
+[2016/12/15 00:55:21 532] isr_local  728  result_type :   xml  
+[2016/12/15 00:55:21 534] isr_local  729  result_encoding :   UTF-8  
+[2016/12/15 00:55:21 534] isr_local  730  is iat :   false  
+[2016/12/15 00:55:21 536] isr_local  469  item_count:1  
+[2016/12/15 00:55:21 537] isr_local  293  nil  
+[2016/12/15 00:55:21 541] isr_local  675  recognized end!  
+[2016/12/15 00:55:21 770] isr_local  2117 ASR_LOCAL_MSG_SSE  
+[2016/12/15 00:55:21 773] isr_local  1496 esr_session_end | esr_obj:stop ret =  0  
+[2016/12/15 00:55:21 775] isr_local  2119 esr_session_end, ret =  0  
+[2016/12/15 00:55:21 807] isr_local  2242 last gc at  1481792081  
+[2016/12/15 00:55:21 834] isr_local  638  local engine already stopped! stop cmd ignored  

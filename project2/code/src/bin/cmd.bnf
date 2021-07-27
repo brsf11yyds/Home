@@ -1,0 +1,9 @@
+﻿#BNF+IAT 1.0 UTF-8;
+
+!grammar cmd;
+!slot <cmd>;
+!start <cmdstart>;
+
+<cmdstart>:<cmd>;
+
+<cmd>:开灯!id(1)|关灯!id(2)|切换下一张图片!id(3)|切换上一张图片!id(4)|小爱同学!id(5)|播放歌曲!id(6)|停止播放!id(7)|大家好!id(8)|谁最帅!id(9)|谁最漂亮!id(10)|退出!id(999)|小爱再见!id(999);

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>小爱同学</rawtext>
+  <confidence>100</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>cmd</focus>
+    <confidence>100</confidence>
+    <object>
+      <cmd id="5">小爱同学</cmd>
+    </object>
+  </result>
+</nlp>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>播放歌曲</rawtext>
+  <confidence>0</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>cmd</focus>
+    <confidence>3</confidence>
+    <object>
+      <cmd id="6">播放歌曲</cmd>
+    </object>
+  </result>
+</nlp>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>开灯</rawtext>
+  <confidence>0</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>cmd</focus>
+    <confidence>0</confidence>
+    <object>
+      <cmd id="1">开灯</cmd>
+    </object>
+  </result>
+</nlp>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>关灯</rawtext>
+  <confidence>99</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>cmd</focus>
+    <confidence>100</confidence>
+    <object>
+      <cmd id="2">关灯</cmd>
+    </object>
+  </result>
+</nlp>

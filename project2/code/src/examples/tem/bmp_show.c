@@ -89,7 +89,7 @@ int show_bmp(char *path)
     int x,y;
     for(y=0;y<infoHeader.biHeight;y++)
     {
-        usleep(1000);
+        usleep(10);
         for(x=0;x<infoHeader.biWidth;x++)
         {
             *(mmap_fd+x+400-infoHeader.biWidth/2+(infoHeader.biHeight-1-y+240-infoHeader.biHeight/2)*800) =bmp_buf[x*3+y*infoHeader.biWidth*3] | bmp_buf[x*3+1+y*infoHeader.biWidth*3] << 8 | bmp_buf[x*3+2+y*infoHeader.biWidth*3] << 16;

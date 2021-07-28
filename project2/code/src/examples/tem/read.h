@@ -6,10 +6,32 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <sys/mman.h>
+#include <sys/ioctl.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <string.h>
 #include <linux/input.h>
+#include <pthread.h>
+#include <stdlib.h>
+
+//buttoms
+int but1,but2,but3,but4,but5,but6;
+int touch_int;
+int hand_int;
+int audio_int;
+
+//LED
+#define LED1 _IO(TEST_MAGIC, 0)
+#define LED2 _IO(TEST_MAGIC, 1)
+#define LED3 _IO(TEST_MAGIC, 2)
+#define LED4 _IO(TEST_MAGIC, 3) 
+#define TEST_MAGIC 'x'
+
+#define LED_ON  0	
+#define LED_OFF	1   
 
 //文件信息头结构体
 typedef struct tagBITMAPFILEHEADER1 
@@ -57,4 +79,18 @@ int show_bmp(char *path);/*显示图片*/
 int clearlcd();/*清屏*/
 int touch(int *x,int *y);/*触摸返回参数*/
 
+/*led.c*/
+int LED ();
+
+/*album.c*/
+int album();
+
+/*mplayer.c*/
+int mplay(char *path);
+
+/*data.c*/
+int data();
+
+/*client.c*/
+int audio();
 #endif

@@ -3,6 +3,7 @@
 
 //线程2 手势识别
 
+
 int main()
 {
     
@@ -12,36 +13,50 @@ int main()
 	do_beep();
 	
     //用户登录
-
-	// pthread_t thread;
-    // pthread_create(&thread , NULL, hand, NULL );
+	data();
+	//pthread_t thread;
+   // pthread_create(&thread , NULL, hand, NULL );
 	//pthread_t thread2;
 	//pthread_create(&thread2 , NULL, voice, NULL );
 
-    show_bmp("jiemian.bmp");
+    show_bmp("main.bmp");
 	int x,y;
     while(1)  //临时与普通卡选择
 		{		
 			touch(&x ,&y); 
-			if(30<x && x<280 && 130<y && y<250)
+			if(500<x && x<745 && 30<y && y<90)
 			{
 				//开灯
+				while(1)
+				{
+				clearlcd();	
+				show_bmp("light.bmp");
+				LED ();	
+				show_bmp("main.bmp");
+				break;
+				}
+				
 			}
-			if(620<x && x<870 && 130<y && y<250)
+            else if(500<x && x<745 && 140<y && y<200)
 			{
-				//关灯
+				clearlcd();	
+				album();//相册
+				show_bmp("main.bmp");
 			}	
-            if(620<x && x<870 && 130<y && y<250)
+            else if(500<x && x<745 && 240<y && y<300)
 			{
-				//音乐播放函数
+				
+				clearlcd();	
+				show_bmp("play.bmp");
+				mplay("1.avi");
+				show_bmp("main.bmp");//视频播放函数
 			}	
-            if(620<x && x<870 && 130<y && y<250)
+            else if(500<x && x<745 && 330<y && y<390)
 			{
-				//视频播放函数
-			}	
-            if(620<x && x<870 && 130<y && y<250)
-			{
-				//相册
+				clearlcd();	
+				show_bmp("play.bmp");
+				mplay("Apologize.mp3");
+				show_bmp("main.bmp");//音乐
 			}	
 
 		}

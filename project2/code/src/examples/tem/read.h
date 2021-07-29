@@ -24,6 +24,7 @@ int hand_int;
 int audio_int;
 
 //LED
+int led_but1,led_but2,led_but3,led_but4,led_but5,led_but6,led_but7,led_but8,led_but9,led_but10;
 #define LED1 _IO(TEST_MAGIC, 0)
 #define LED2 _IO(TEST_MAGIC, 1)
 #define LED3 _IO(TEST_MAGIC, 2)
@@ -70,6 +71,20 @@ typedef struct _PixelInfo {
 void showBmpHead(BITMAPFILEHEADER1 pBmpHead);
 
 void showBmpInfoHead(BITMAPINFOHEADER1 pBmpinfoHead);
+
+int   Init_Font(void);  //显示字体库前先调用本函数进行初始化
+void  UnInit_Font(void); //程序退出前，调用本函数
+int   Clean_Area(int X,  //x坐标起始点
+                 int Y,  //y坐标起始点
+				 int width, //绘制的宽度
+				 int height,//绘制的高度
+				 unsigned long color); //往屏幕指定区域填充颜色
+				 
+int   Display_characterX(unsigned int x,          //x坐标起始点
+                         unsigned int y,          //y坐标起始点
+						 char *string,   		  //GB2312 中文字符串
+						 unsigned int color ,     //字体颜色值
+						 int size);               //字体放大倍数 1~8
 
 /*beep_app.c*/
 int do_beep();

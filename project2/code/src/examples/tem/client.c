@@ -10,12 +10,12 @@ xmlChar *__get_cmd_id(xmlDocPtr doc, xmlNodePtr cur)
 	{
 	    if ((!xmlStrcmp(cur->name, (const xmlChar *)"cmd")))
 	    {
-			//»ñÈ¡×Ö·û´®
+			//ï¿½ï¿½È¡ï¿½Ö·ï¿½ï¿½ï¿½
 		    key = xmlNodeListGetString(doc, cur->xmlChildrenNode, 1);
 		    printf("cmd: %s\n", key);
 		    xmlFree(key);
 
-			//¶ÁÈ¡½ÚµãÊôÐÔ
+			//ï¿½ï¿½È¡ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½
 		    id = xmlGetProp(cur, (const xmlChar *)"id");
 		    printf("id: %s\n", id);
 
@@ -24,7 +24,7 @@ xmlChar *__get_cmd_id(xmlDocPtr doc, xmlNodePtr cur)
  	    }
 		cur = cur->next;
 	}
-	//ÊÍ·ÅÎÄµµÖ¸Õë
+	//ï¿½Í·ï¿½ï¿½Äµï¿½Ö¸ï¿½ï¿½
 	xmlFree(doc);
     return NULL;
 }
@@ -34,7 +34,7 @@ xmlChar *parse_xml(char *xmlfile)
 	xmlDocPtr doc;
 	xmlNodePtr cur1, cur2;
 
-	//·ÖÎöÒ»¸öxmlÎÄ¼þ£¬²¢·µ»ØÒ»¸öxmlÎÄµµµÄ¶ÔÏóÖ¸Õë
+	//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½xmlï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½xmlï¿½Äµï¿½ï¿½Ä¶ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½
 	doc = xmlParseFile(xmlfile);
 	if (doc == NULL)
 	{
@@ -42,7 +42,7 @@ xmlChar *parse_xml(char *xmlfile)
 		return NULL;
 	}
 	
-	//»ñµÃÎÄµµµÄ¸ù½Úµã
+	//ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½Ä¸ï¿½ï¿½Úµï¿½
 	cur1 = xmlDocGetRootElement(doc);
 	if(cur1 == NULL)
 	{
@@ -88,7 +88,7 @@ xmlChar *parse_xml(char *xmlfile)
 		cur1 = cur1->next;
 	}
 
-	//ÊÍ·ÅÎÄµµÖ¸Õë
+	//ï¿½Í·ï¿½ï¿½Äµï¿½Ö¸ï¿½ï¿½
 	xmlFreeDoc(doc);
 	return NULL;
 }
@@ -97,7 +97,7 @@ int  tcp_send_pcm(int socket_fd,const char *pcm_file)
 {
 	int fd;
 	
-	//ÒÔÖ»¶Á·½Ê½´ò¿ªpcmÎÄ¼þ
+	//ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½pcmï¿½Ä¼ï¿½
 	fd = open(pcm_file,O_RDONLY);
 	
 	if(fd < 0)
@@ -108,19 +108,19 @@ int  tcp_send_pcm(int socket_fd,const char *pcm_file)
 		
 	}
 	
-	// È¡µÃPCMÊý¾ÝµÄ´óÐ¡
+	// È¡ï¿½ï¿½PCMï¿½ï¿½ï¿½ÝµÄ´ï¿½Ð¡
 	off_t pcm_size = lseek(fd, 0, SEEK_END);
 	
-	// ´ÓÐÂ¶¨Î»µ½ÎÄ¼þµÄÍ·²¿
+	// ï¿½ï¿½ï¿½Â¶ï¿½Î»ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Í·ï¿½ï¿½
 	lseek(fd, 0, SEEK_SET);
 	
-	// ·ÖÅä1¸öpcm_size×Ö½Ú´óÐ¡µÄ»º³åÇø
+	// ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½pcm_sizeï¿½Ö½Ú´ï¿½Ð¡ï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½
 	char *pcm_buf = calloc(1, pcm_size);
 	
-	// ¶ÁÈ¡PCMÎÄ¼þÊý¾Ý
+	// ï¿½ï¿½È¡PCMï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½
 	read(fd, pcm_buf, pcm_size);
 
-	// ½«PCMÎÄ¼þ·¢ËÍ¸øÓïÒôÊ¶±ðÒýÇæÏµÍ³
+	// ï¿½ï¿½PCMï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³
 	int m = send(socket_fd, pcm_buf, pcm_size,0);
 	
 	printf("%d bytes has been sent\n", m);
@@ -134,11 +134,11 @@ int  tcp_send_pcm(int socket_fd,const char *pcm_file)
 int tcp_recv_xml(int socket_fd)
 {
 	
-	//calloc¶¯Ì¬·ÖÅäÍêÄÚ´æºó£¬×Ô¶¯³õÊ¼»¯¸ÃÄÚ´æ¿Õ¼äÎªÁã
-	//·ÖÅä1¸ö1024×Ö½Ú´óÐ¡µÄ»º³åÇø
+	//callocï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½Õ¼ï¿½Îªï¿½ï¿½
+	//ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½1024ï¿½Ö½Ú´ï¿½Ð¡ï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½
 	char *xml_buf = calloc(1, 1024);
 
-	// ´Óubuntu½ÓÊÕXML½á¹û
+	// ï¿½ï¿½ubuntuï¿½ï¿½ï¿½ï¿½XMLï¿½ï¿½ï¿½
 	int n = recv(socket_fd, xml_buf, 1024,0);
 
 	if(n <= 0)
@@ -150,7 +150,7 @@ int tcp_recv_xml(int socket_fd)
 	
 	printf("%d bytes has been recv\n", n);
 	
-	//´´½¨result.xmlÎÄ¼þ²¢Çå¿Õ
+	//ï¿½ï¿½ï¿½ï¿½result.xmlï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	int fd = open("result.xml",O_CREAT|O_RDWR|O_TRUNC);
 	
 	if(fd < 0)
@@ -161,21 +161,21 @@ int tcp_recv_xml(int socket_fd)
 		
 	}
 	
-	//½«½ÓÊÕµ½XMLÐ´Èëµ½result.xmlÎÄ¼þ
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Õµï¿½XMLÐ´ï¿½ëµ½result.xmlï¿½Ä¼ï¿½
 	n = write(fd,xml_buf,n);
 	
 	printf("%d bytes has been write to result.xml\n", n);
 
-	//¹Ø±Õresult.xmlÎÄ¼þ
+	//ï¿½Ø±ï¿½result.xmlï¿½Ä¼ï¿½
 	close(fd);
 	
 	return 0;
 }
 
-//ÆÁÄ»·Ö±æÂÊÎª800x480£¬ÏñËØµãµÄ×ÜÊý=800x480
-//Ã¿¸ö32Î»µÄÏñËØµãÕ¼ÓÃÄÚ´æ¿Õ¼ä4¸ö×Ö½Ú
+//ï¿½ï¿½Ä»ï¿½Ö±ï¿½ï¿½ï¿½Îª800x480ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½=800x480
+//Ã¿ï¿½ï¿½32Î»ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½Õ¼ï¿½ï¿½ï¿½Ú´ï¿½Õ¼ï¿½4ï¿½ï¿½ï¿½Ö½ï¿½
 char color_buf[800*480*4]={0};
-char bmp_buf[800*480*3]={0};
+char bmp_buff[800*480*3]={0};
 
 
 int lcd_draw_bmp_file(const char *pbmp_path)
@@ -184,7 +184,7 @@ int lcd_draw_bmp_file(const char *pbmp_path)
 	int bmp_fd;
 	int i=0,j=0;
 
-	//´ò¿ªLCDÉè±¸£¬²¢ÒÔ¿É¶Á¿ÉÐ´·½Ê½·ÃÎÊ
+	//ï¿½ï¿½LCDï¿½è±¸ï¿½ï¿½ï¿½ï¿½ï¿½Ô¿É¶ï¿½ï¿½ï¿½Ð´ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½
 	lcd_fd = open("/dev/fb0",O_RDWR);
 	
 	if(lcd_fd < 0)
@@ -194,7 +194,7 @@ int lcd_draw_bmp_file(const char *pbmp_path)
 		
 	}
 	
-	//´ò¿ªbmpÍ¼Æ¬£¬²¢Ö»¶Á·½Ê½·ÃÎÊ
+	//ï¿½ï¿½bmpÍ¼Æ¬ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½
 	bmp_fd = open(pbmp_path,O_RDONLY);
 	
 	if(bmp_fd < 0)
@@ -204,37 +204,37 @@ int lcd_draw_bmp_file(const char *pbmp_path)
 		
 	}	
 	
-	//bmpÎÄ¼þ¶¨Î»µ½rgbÑÕÉ«ÇøÓòµÄÆðÊ¼Î»ÖÃ
+	//bmpï¿½Ä¼ï¿½ï¿½ï¿½Î»ï¿½ï¿½rgbï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼Î»ï¿½ï¿½
 	lseek(bmp_fd,54,SEEK_SET);
 	
-	//½«bmpËùÓÐµÄrgbÊý¾ÝÈ«²¿¶ÁÈ¡
-	read(bmp_fd,bmp_buf,800*480*3);
+	//ï¿½ï¿½bmpï¿½ï¿½ï¿½Ðµï¿½rgbï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½È¡
+	read(bmp_fd,bmp_buff,800*480*3);
 	
-	//ÓÉÓÚ²»ÔÙÐèÒª²Ù×÷1.bmp
+	//ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½1.bmp
 	close(bmp_fd);
 	
 	
 	
-	//½«ÏÔÊ¾Î»ÖÃ¶¨Î»µ½×ø±êÔ­µã
+	//ï¿½ï¿½ï¿½ï¿½Ê¾Î»ï¿½Ã¶ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­ï¿½ï¿½
 	lseek(lcd_fd,0,SEEK_SET);
 	
 	
-	//½«bmpµÄrgbÊý¾Ý¸øÎÒcolor_buf
+	//ï¿½ï¿½bmpï¿½ï¿½rgbï¿½ï¿½ï¿½Ý¸ï¿½ï¿½ï¿½color_buf
 	for(i=0,j=0; i<800*480*4; i+=4,j+=3)
 	{
-		color_buf[i]  =bmp_buf[j];		//b
-		color_buf[i+1]=bmp_buf[j+1];	//g		
-		color_buf[i+2]=bmp_buf[j+2];	//r		
+		color_buf[i]  =bmp_buff[j];		//b
+		color_buf[i+1]=bmp_buff[j+1];	//g		
+		color_buf[i+2]=bmp_buff[j+2];	//r		
 		color_buf[i+3]=0;				//a			
 	}
 	
-	//ÏòLCDÉè±¸Ð´ÈëÊý¾Ý
+	//ï¿½ï¿½LCDï¿½è±¸Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	for(i=479; i>=0; i--)
 		write(lcd_fd,&color_buf[800*i*4],800*4);		
 
 	for(i=479; i>=0; i--)
 		write(lcd_fd,&color_buf[800*i*4],800*4);		
-	//¹Ø±ÕLCDÉè±¸
+	//ï¿½Ø±ï¿½LCDï¿½è±¸
 	close(lcd_fd);	
 }
 
@@ -247,14 +247,14 @@ int audio ()
 	int len;
 /*
 	struct timeval {
-		time_t tv_sec; 	// Ãë 
-		long tv_usec; 	// Î¢Ãë
+		time_t tv_sec; 	// ï¿½ï¿½ 
+		long tv_usec; 	// Î¢ï¿½ï¿½
 	};
 */
-	//3Ãë³¬Ê±
+	//3ï¿½ë³¬Ê±
 	struct timeval timeout={3,0};
 	
-	//´´½¨Ì×½Ó×Ö£¬Ð­ÒéÎªIPv4£¬ÀàÐÍÎªTCP
+	//ï¿½ï¿½ï¿½ï¿½ï¿½×½ï¿½ï¿½Ö£ï¿½Ð­ï¿½ï¿½ÎªIPv4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎªTCP
 	socket_fd = socket(AF_INET,SOCK_STREAM,0);
 	
 	if(socket_fd<0)
@@ -267,10 +267,10 @@ int audio ()
 	struct sockaddr_in	 dest_addr;
 	
 	dest_addr.sin_family 		= AF_INET;					//IPv4
-	dest_addr.sin_port   		= htons(54321);				//Ä¿µÄ¶Ë¿ÚÎª54321
-	dest_addr.sin_addr.s_addr	= inet_addr("192.168.1.222");	//Ä¿µÄIPµØÖ·ÌîÐ´
+	dest_addr.sin_port   		= htons(54321);				//Ä¿ï¿½Ä¶Ë¿ï¿½Îª54321
+	dest_addr.sin_addr.s_addr	= inet_addr("192.168.1.77");	//Ä¿ï¿½ï¿½IPï¿½ï¿½Ö·ï¿½ï¿½Ð´
 
-	//ÉèÖÃ·¢ËÍ³¬Ê±
+	//ï¿½ï¿½ï¿½Ã·ï¿½ï¿½Í³ï¿½Ê±
 	rt = setsockopt(socket_fd,SOL_SOCKET,SO_SNDTIMEO,(const char *)&timeout,sizeof timeout);
 	
 	if(rt < 0)
@@ -279,7 +279,7 @@ int audio ()
 		return -1;
 	}
 	
-	//ÉèÖÃ½ÓÊÕ³¬Ê±
+	//ï¿½ï¿½ï¿½Ã½ï¿½ï¿½Õ³ï¿½Ê±
 	rt = setsockopt(socket_fd,SOL_SOCKET,SO_RCVTIMEO,(const char *)&timeout,sizeof timeout);
 	
 	if(rt < 0)
@@ -288,7 +288,7 @@ int audio ()
 		return -1;
 	}
 	
-	//Òª¸ú·þÎñÆ÷½¨Á¢Á¬½Ó£¨µÈÍ¬ÓÚµÇÂ½ÓÎÏ·£©
+	//Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½Í¬ï¿½Úµï¿½Â½ï¿½ï¿½Ï·ï¿½ï¿½
 	rt=connect(socket_fd,(struct sockaddr *)&dest_addr,sizeof dest_addr);
 	
 	if(rt < 0)
@@ -303,55 +303,58 @@ int audio ()
 	{
 		printf("please press enter to start record in 3s...\n");
 		
-		//µÈ´ý»Ø³µ¼ü
+		//ï¿½È´ï¿½ï¿½Ø³ï¿½ï¿½ï¿½
 		getchar();
 
-		//Æô¶¯Â¼Òô
+		//ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½
 		system("arecord -d3 -c1 -r16000 -traw -fS16_LE cmd.pcm");	
 		
-		//ÏòÓïÒôÊ¶±ðÒýÇæÏµÍ³·¢ËÍcmd.pcm
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½cmd.pcm
 		rt = tcp_send_pcm(socket_fd,"cmd.pcm");
 		if(rt < 0)
 			continue;
 		
-		//´ÓÓïÒôÊ¶±ðÒýÇæÏµÍ³½ÓÊÕXML½á¹û£¬²¢½«½á¹û±£´æµ½result.xml	
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½XMLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æµ½result.xml	
 		rt = tcp_recv_xml(socket_fd);	
 		
 		if(rt < 0)
 			continue;
 		
-		//·ÖÎöresult.xml
+		//ï¿½ï¿½ï¿½ï¿½result.xml
 		xmlChar *id = parse_xml("result.xml");
 		
 		if(id)
 		{
 			
-			//´òÓ¡idºÅ
+			//ï¿½ï¿½Ó¡idï¿½ï¿½
 			printf("id=%s\n",id);
 			
 			switch(atoi(id))
-			{
+			{	
+				case(1):led_but1 = 1;led_but3=1;audio_int = 1;led_but5=1;led_but7=1;audio_int = 1;break;
+				case(2):led_but2 = 1;led_but4=1;audio_int = 1;led_but6=1;led_but8=1;audio_int = 1;break;
 				case(6):but1 = 1;audio_int = 1;break;
 				case(7):but1 = 1;audio_int = 1;break;
 				case(8):but2 = 1;audio_int = 1;break;
 				case(9):but3 = 1;audio_int = 1;break;
 				case(10):but4 = 1;audio_int = 1;break;
 				case(11):but5 = 1;audio_int = 1;break;
-				case(999):but6 = 1;audio_int = 1;break;
+				case(12):led_but9 = 1;audio_int = 1;break;
+				case(999):but6 = 1;led_but10=1;audio_int = 1;break;
 
 			}
-			//¸ù¾ÝidºÅÏìÓ¦²»Í¬µÄ²Ù×÷
+			//ï¿½ï¿½ï¿½ï¿½idï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½Í¬ï¿½Ä²ï¿½ï¿½ï¿½
 			if(atoi(id) == 1)
 			{
-				//ÏÔÊ¾¿ªµÆÍ¼Æ¬
-				printf("¿ªµÆ!\n");
+				//ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Í¼Æ¬
+				printf("ï¿½ï¿½ï¿½ï¿½!\n");
 				//lcd_draw_bmp_file("open_light.bmp");
 			}
 			
 			if(atoi(id) == 2)
 			{
-				//ÏÔÊ¾¹ØµÆÍ¼Æ¬
-				printf("¹ØµÆ!\n");
+				//ï¿½ï¿½Ê¾ï¿½Øµï¿½Í¼Æ¬
+				printf("ï¿½Øµï¿½!\n");
 				//lcd_draw_bmp_file("close_light.bmp");		
 			}			
 		}
@@ -362,7 +365,7 @@ int audio ()
 	}
 
 
-	//¹Ø±ÕÌ×½Ó×Ö
+	//ï¿½Ø±ï¿½ï¿½×½ï¿½ï¿½ï¿½
 	close(socket_fd);
 	
 	return 0;

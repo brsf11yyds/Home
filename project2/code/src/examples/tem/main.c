@@ -11,17 +11,15 @@ int main()
 	show_bmp("welcome.bmp"); //欢迎界面
 	sleep(1);
 	do_beep();
-	
+
+	Init_Font();
     //用户登录
 	data();
-	//pthread_t thread;
-   // pthread_create(&thread , NULL, hand, NULL );
-	//pthread_t thread2;
-	//pthread_create(&thread2 , NULL, voice, NULL );
+	do_beep();
 
     show_bmp("main.bmp");
 	int x,y;
-    while(1)  //临时与普通卡选择
+    while(1)  
 		{		
 			touch(&x ,&y); 
 			if(500<x && x<745 && 30<y && y<90)
@@ -34,8 +32,7 @@ int main()
 				LED ();	
 				show_bmp("main.bmp");
 				break;
-				}
-				
+				}				
 			}
             else if(500<x && x<745 && 140<y && y<200)
 			{
@@ -60,5 +57,6 @@ int main()
 			}	
 
 		}
+	UnInit_Font();
     return 0;
 }

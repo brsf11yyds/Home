@@ -1,11 +1,63 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
   <version>1.1</version>
-  <rawtext>播放</rawtext>
-  <confidence>95</confidence>
+  <rawtext>开灯</rawtext>
+  <confidence>72</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>cmd</focus>
+    <confidence>76</confidence>
+    <object>
+      <cmd id="1">开灯</cmd>
+    </object>
+  </result>
+</nlp>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>关灯</rawtext>
+  <confidence>100</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>cmd</focus>
+    <confidence>100</confidence>
+    <object>
+      <cmd id="2">关灯</cmd>
+    </object>
+  </result>
+</nlp>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>流水灯</rawtext>
+  <confidence>97</confidence>
   <engine>local</engine>
   <result>
     <focus>cmd</focus>
     <confidence>99</confidence>
+    <object>
+      <cmd id="12">流水灯</cmd>
+    </object>
+  </result>
+</nlp>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>播放</rawtext>
+  <confidence>96</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>cmd</focus>
+    <confidence>100</confidence>
+    <object>
+      <cmd id="6">播放</cmd>
+    </object>
+  </result>
+</nlp>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>播放</rawtext>
+  <confidence>100</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>cmd</focus>
+    <confidence>100</confidence>
     <object>
       <cmd id="6">播放</cmd>
     </object>

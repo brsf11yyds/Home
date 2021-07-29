@@ -36,9 +36,9 @@ int show_bmp1(char *path,int xx ,int yy)
         //printf("文件类型标识正确!" );  
         //printf("\n文件标识符：%d\n", fileType); 
         fread(&fileHeader, 1, sizeof(BITMAPFILEHEADER1), fp);
-        showBmpHead(fileHeader);
+        //showBmpHead(fileHeader);
         fread(&infoHeader, 1, sizeof(BITMAPINFOHEADER1), fp);
-        showBmpInfoHead(infoHeader);
+        //showBmpInfoHead(infoHeader);
         fclose(fp);        
     }
 
@@ -100,9 +100,9 @@ int show_bmp2(char *path,int xx ,int yy)
         //printf("文件类型标识正确!" );  
         //printf("\n文件标识符：%d\n", fileType); 
         fread(&fileHeader, 1, sizeof(BITMAPFILEHEADER1), fp);
-        showBmpHead(fileHeader);
+        //showBmpHead(fileHeader);
         fread(&infoHeader, 1, sizeof(BITMAPINFOHEADER1), fp);
-        showBmpInfoHead(infoHeader);
+        //showBmpInfoHead(infoHeader);
         fclose(fp);        
     }
 
@@ -163,9 +163,9 @@ int show_bmp3(char *path,int xx ,int yy)
         //printf("文件类型标识正确!" );  
         //printf("\n文件标识符：%d\n", fileType); 
         fread(&fileHeader, 1, sizeof(BITMAPFILEHEADER1), fp);
-        showBmpHead(fileHeader);
+        //showBmpHead(fileHeader);
         fread(&infoHeader, 1, sizeof(BITMAPINFOHEADER1), fp);
-        showBmpInfoHead(infoHeader);
+        //showBmpInfoHead(infoHeader);
         fclose(fp);        
     }
 
@@ -320,9 +320,9 @@ int bmp_small(char *path,int xx ,int yy)
         //printf("文件类型标识正确!" );  
         //printf("\n文件标识符：%d\n", fileType); 
         fread(&fileHeader, 1, sizeof(BITMAPFILEHEADER1), fp);
-        showBmpHead(fileHeader);
+        //showBmpHead(fileHeader);
         fread(&infoHeader, 1, sizeof(BITMAPINFOHEADER1), fp);
-        showBmpInfoHead(infoHeader);
+        //showBmpInfoHead(infoHeader);
         fclose(fp);        
     }
 

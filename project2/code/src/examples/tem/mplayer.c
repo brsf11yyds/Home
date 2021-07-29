@@ -1,8 +1,6 @@
 #include "read.h"
 int fi;
-int touch_int;
-int hand_int;
-int audio_int;
+
 
 void * touch_scan(void *arg)
 {
@@ -85,6 +83,11 @@ int mplay(char *path)
 	strcat(cmd," &");
 	system(cmd);
 	
+	
+    Clean_Area(0,0,600,50,0x00ffffff);
+	char tem[50]="Now it is plyaing ";
+	strcat(tem,path);
+	Display_characterX(0,0,tem,0x00ff0000,2);
 
 	pthread_t thread;
     pthread_create(&thread , NULL, touch_scan, NULL );

@@ -7,6 +7,7 @@ ELF=arm_project
 #CONFIG=-I./ -I./libjpeg -L./libjpeg -ljpeg   -lpthread -mfloat-abi=softfp -mfpu=vfpv3-d16
 #CONFIG =-I./ -I./libjpeg -L./libjpeg -ljpeg -L ./ -lfont
 #CONFIG+=-I./libv4l2 -L./libv4l2 -lv4l2
+CONFIG=-L ./ -lfont
 CONFIG+=-lpthread -mfloat-abi=softfp -mfpu=neon -ftree-vectorize -I inc/ -L lib/ -lxml2 -lz
 
 SRCS=$(wildcard *.c)
